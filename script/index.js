@@ -5,9 +5,9 @@ OnButtonClick = () => {
     let radio = document.getElementById('radio').checked;
     let radio2 = document.getElementById('radio2').checked;
     if (radio) {
-        var view = [1,0];
-    } else {
         var view = [0,1];
+    } else {
+        var view = [1,0];
     }
     if (radio2) {
         var check = "";
