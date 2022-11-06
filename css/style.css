@@ -17,3 +17,6 @@ input[type="checkbox"]:checked + label {
 .textbox {
     width: 50px;
 }
+table{
+    margin-top: 10px;
+}
