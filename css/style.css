@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+html {
+    background-image: url("../images/eiko.jpg");
+}
+body {
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 550px;
+}
+input[type="checkbox"]:checked + label {
+    background: #000;
+}
+.back{
+    display: none;
+}
+.textbox {
+    width: 50px;
+}
