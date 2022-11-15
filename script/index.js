@@ -1,3 +1,4 @@
+
 OnButtonClick = () => {
     let number1 = document.getElementById("number1").value;
     let number2 = document.getElementById("number2").value;
@@ -27,11 +28,14 @@ OnButtonClick = () => {
         let loopset = eval("_"+set).length;
         let loop2 = (loopset - 3) / 2; 
         for (let n = 0;  n < loop2;  n++) {
-            console.log(loop2);
             output = ""+output+"<tr><td><label><input type='checkbox' id='_"+set+""+n+"'>"+set+"</label></td><td>"+eval("_"+set)[view[0]+3+n*2]+"</td><td><input type='checkbox' "+check+" id='"+set+""+n+"' class='back'><label for='"+set+""+n+"'>"+eval("_"+set)[view[1]+3+n*2]+"</label></td></tr>";
         }
         }
     }
     let area = document.getElementById("input");
     area.innerHTML = output;
+}
+function inputChange(){
+    console.log("aa");
+    OnButtonClick();
 }
